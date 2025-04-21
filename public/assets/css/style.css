@@ -1,17 +1,33 @@
+/* ==============================================
+   Global Styles
+   ============================================== */
+
+/* Fond de page et police de base */
 body {
   background-color: #f5f8fa;
   font-family: 'Arial Narrow';
 }
-h2{
+
+/* Titre h2 principal et ses spans */
+h2 {
   font-weight: bold;
   color: #00796b;
 }
-h2 span{
+
+h2 span {
   color: black;
 }
-h4, h5{
+
+/* Titres h4 et h5 en gras */
+h4, h5 {
   font-weight: bold;
 }
+
+/* ==============================================
+   Sidebar Styles
+   ============================================== */
+
+/* Style de la barre latérale */
 .sidebar {
   width: 230px;
   background-color: #009688;
@@ -21,27 +37,39 @@ h4, h5{
   margin: 20px 20px;
   border-radius: 8px;
 }
+
+/* Liens de navigation dans la barre latérale */
 .sidebar .nav-link {
   font-size: 1.2rem;
   padding: 0.5rem 0.75rem;
   display: flex;
   align-items: center;
 }
+
+/* Icônes des liens de la barre latérale */
 .sidebar .nav-link i {
   font-size: 1rem;
 }
+
+/* Effet de survol des liens dans la barre latérale */
 .sidebar .nav-link:hover {
   background-color: #00796b;
   border-radius: 10px;
 }
- /**    */
- .card-body .custom-no-border {
+
+/* ==============================================
+   Card Body Styles
+   ============================================== */
+
+/* Bouton personnalisé sans bordure */
+.card-body .custom-no-border {
   background-color: transparent;
   border: none;
   color: #000;
   position: relative;
 }
 
+/* Effet de survol sur le bouton personnalisé */
 .card-body .custom-no-border:hover::after {
   content: '';
   position: absolute;
@@ -52,7 +80,7 @@ h4, h5{
   background-color: #48c9b0;
 }
 
-/* Bouton Ajouter */
+/* Bouton "Ajouter" personnalisé */
 .card-body .custom-ajouter-btn {
   background-color: #d1f2eb;
   border: none;
@@ -61,16 +89,21 @@ h4, h5{
   padding: 0.5rem 1rem;
 }
 
+/* Effet de survol pour le bouton "Ajouter" */
 .card-body .custom-ajouter-btn:hover {
   background-color: #a3e4d7;
   color: #000;
 }
 
-/*   **/
+/* ==============================================
+   Right Panel Styles
+   ============================================== */
 
+/* Panneau droit avec statistiques */
 .right-offset {
   margin-top: 100px;
 }
+
 .right-panel .card-stat {
   border: 1px solid #ddd;
   text-align: center;
@@ -80,6 +113,8 @@ h4, h5{
   background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* Icône circulaire dans les statistiques */
 .right-panel .circle-icon {
   width: 45px;
   height: 45px;
@@ -92,15 +127,27 @@ h4, h5{
   margin-top: 0.5rem;
   flex-shrink: 0;
 }
-.right-panel .bi{
+
+/* Icônes dans le panneau droit */
+.right-panel .bi {
   font-size: 1.2rem;
 }
-.right-panel h4{
+
+/* Taille du titre dans le panneau droit */
+.right-panel h4 {
   font-size: 2rem;
 }
+
+/* Espace entre les éléments textuels dans les statistiques */
 .right-panel .space-between-texts small {
   display: block;
 }
+
+/* ==============================================
+   Stat Card Styling
+   ============================================== */
+
+/* Styles de la carte statistique principale */
 .card-stat {
   background-color: #d1f2eb;
   display: flex;
@@ -109,6 +156,8 @@ h4, h5{
   border-radius: 0.5rem;
   height: 100%;
 }
+
+/* Icône circulaire dans la carte statistique */
 .circle-icon {
   width: 50px;
   height: 50px;
@@ -120,18 +169,38 @@ h4, h5{
   margin-right: 1rem;
   flex-shrink: 0;
 }
+
+/* Espacement pour les petits textes dans les statistiques */
 .space-between-texts small {
   display: block;
 }
+
+/* ==============================================
+   Table Styles
+   ============================================== */
+
+/* Style de l'en-tête des tableaux */
 .table thead {
   background-color: #e0f2f1;
 }
+
+/* ==============================================
+   Doctor Avatar Styles
+   ============================================== */
+
+/* Style pour l'avatar du médecin */
 .doctor-avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
+
+/* ==============================================
+   Quick Button Styles
+   ============================================== */
+
+/* Bouton rapide prenant toute la largeur */
 .btn-quick {
   width: 100%;
   padding: 1rem;

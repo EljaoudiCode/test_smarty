@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.5, created on 2025-04-21 18:32:30
+/* Smarty version 5.4.5, created on 2025-04-21 22:11:14
   from 'file:index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.5',
-  'unifunc' => 'content_6806731e96c7b7_61453692',
+  'unifunc' => 'content_6806a6629fd647_70806967',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'df45c97576a83a8f58f231213019a7bcf92d8414' => 
     array (
       0 => 'index.tpl',
-      1 => 1745253146,
+      1 => 1745266259,
       2 => 'file',
     ),
   ),
@@ -25,12 +25,13 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ))) {
-function content_6806731e96c7b7_61453692 (\Smarty\Template $_smarty_tpl) {
+function content_6806a6629fd647_70806967 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\xampp\\htdocs\\patient_manager\\demo\\templates';
 $_smarty_tpl->renderSubTemplate("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), (int) 0, $_smarty_current_dir);
 ?>
 
 <?php if ((true && ($_smarty_tpl->hasVariable('message') && null !== ($_smarty_tpl->getValue('message') ?? null)))) {?>
+    <!-- Affiche une alerte avec un message de succès si la variable $message est définie -->
     <div id="customAlert" class="alert alert-success alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3 shadow" style="z-index: 1055; width: 400px;" role="alert">
         <?php echo $_smarty_tpl->getValue('message');?>
 
@@ -41,7 +42,7 @@ $_smarty_tpl->renderSubTemplate("file:header.tpl", $_smarty_tpl->cache_id, $_sma
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Sidebar -->
+        <!-- Sidebar : Menu de navigation -->
         <div class="col-md-2 sidebar">
             <div class="mb-4">
                 <div class="d-flex my-2 py-2">
@@ -61,7 +62,7 @@ $_smarty_tpl->renderSubTemplate("file:header.tpl", $_smarty_tpl->cache_id, $_sma
             </nav>
         </div>
 
-        <!-- Main -->
+        <!-- Contenu principal -->
         <div class="col-md-7 py-4">
             <h2>Healthcare </br><span>Management System</span></h2>
 

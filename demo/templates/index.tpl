@@ -1,6 +1,7 @@
 {include file="header.tpl"}
 
 {if isset($message)}
+    <!-- Affiche une alerte avec un message de succès si la variable $message est définie -->
     <div id="customAlert" class="alert alert-success alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3 shadow" style="z-index: 1055; width: 400px;" role="alert">
         {$message}
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fermer"></button>
@@ -10,7 +11,7 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Sidebar -->
+        <!-- Sidebar : Menu de navigation -->
         <div class="col-md-2 sidebar">
             <div class="mb-4">
                 <div class="d-flex my-2 py-2">
@@ -30,7 +31,7 @@
             </nav>
         </div>
 
-        <!-- Main -->
+        <!-- Contenu principal -->
         <div class="col-md-7 py-4">
             <h2>Healthcare </br><span>Management System</span></h2>
 
