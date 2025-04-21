@@ -1,0 +1,19 @@
+{
+    "name": "omar-eljaoudi/patient-manager",
+    "description": "A simple XAMPP-based local development environment",
+    "autoload": {
+        "psr-4": {
+            "OmarEljaoudi\\PatientManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Eljaoudi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "almasaeed2010/adminlte": "^3.2",
+        "smarty/smarty": "^5.4"
+    }
+}
